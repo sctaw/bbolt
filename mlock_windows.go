@@ -1,3 +1,5 @@
+//go:build windows || plan9
+//build+ windows || plan9
 package bbolt
 
 // mlock locks memory of db file
